@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import DimensionsContextProvider from './context/DimensionsContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DimensionsContextProvider>
+      <App />
+    </DimensionsContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
