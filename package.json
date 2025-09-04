@@ -2,7 +2,7 @@
   "name": "frogboiz-splash-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://junok95.github.io/frogboiz-splash-page",
+  "homepage": "https://JunoK95.github.io/frogboiz-splash-page",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

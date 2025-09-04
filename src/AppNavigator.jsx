@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
 import {
-  BrowserRouter as Router, Redirect, Route, Switch,
-} from 'react-router-dom';
-import HomePage from './pages/HomePage';
+  HashRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
+import HomePage from "./pages/HomePage";
 
 function AppNavigator() {
   return (
